@@ -1,0 +1,137 @@
+<p style="margin: 0px auto; width: 660px; text-align: left;">
+    <br/>
+</p>
+<table style="width: 660px;" data-sort="sortDisabled" cellspacing="0" cellpadding="0" bordercolor="#215283" border="2" align="center">
+    <colgroup class="ck-tableresize-colgroup">
+        <col style="width: 108px;"/>
+        <col style="width: 214px;"/>
+        <col style="width: 108px;"/>
+        <col style="width: auto;"/>
+    </colgroup>
+    <tbody>
+        <tr class="firstRow">
+            <td style="text-align: left; border-bottom: medium none currentcolor; word-break: break-all;" colspan="4" height="50" align="center">
+                <p style="margin: 15px 0px 0px; padding: 0px; text-align: center; color: rgb(33, 82, 131); line-height: 40px; font-size: 25pt;">
+                    <span style="font-family: 微软雅黑; font-size: 24px;">市现代集团合同审批表</span><span style="font-family: 微软雅黑;"></span>
+                </p>
+                <p style="margin: 0px; padding: 0px 40px 0px 0px; text-align: right; color: rgb(102, 102, 102); line-height: 20px;">
+                    <span style="font-family: 微软雅黑;">&nbsp; &nbsp; &nbsp; &nbsp; 流水号：#[MACRO_RUN_ID]</span><span style="font-family: 微软雅黑;"></span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align: left; border-top: medium none currentcolor; border-bottom: medium none currentcolor; word-break: break-all;" colspan="4" valign="bottom" height="18" align="left">
+                <p style="color: rgb(102, 102, 102); vertical-align: bottom;">
+                    <br/>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align: center; border-top: 2px solid rgb(33, 82, 131); word-break: break-all;" height="30" bgcolor="#f7f7f7" align="center">
+                <span style="font-family: 宋体, SimSun;">填报人</span>
+            </td>
+            <td style="text-align: left; border-top: 2px solid rgb(33, 82, 131); word-break: break-all;" valign="middle" height="30" bgcolor="#f7f7f7" align="left">
+                <input title="填报人" class="AUTO" datafld="SYS_USERNAME" style="" uid="107BB9D58D50DE5548D9259F53ABC1F4" name="DATA_101" value="{MACRO}" type="text" hidden="0"/>
+            </td>
+            <td style="text-align: center; border-top: 2px solid rgb(33, 82, 131); word-break: break-all;" valign="middle" height="30" bgcolor="#f7f7f7" align="left">
+                <span style="font-family: 宋体, SimSun;">填报时间</span>
+            </td>
+            <td style="text-align: left; border-top: 2px solid rgb(33, 82, 131); word-break: break-all;" valign="middle" height="30" bgcolor="#f7f7f7" align="left">
+                <input title="填报时间" class="AUTO" datafld="SYS_DATE" style="" uid="FF4CFE895F81CF0988B34E581A25C039" name="DATA_102" value="{MACRO}" type="text" hidden="0"/>
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align: center; word-break: break-all;" rowspan="1" colspan="1" height="30" bgcolor="#f7f7f7" align="center">
+                <span style="font-family: 宋体, SimSun;">所属部门</span>
+            </td>
+            <td style="text-align: left; word-break: break-all;" rowspan="1" colspan="1" bgcolor="#f7f7f7" align="center">
+                <input name="DATA_103" title="所属部门" class="AUTO" type="text" value="{MACRO}" datafld="SYS_DEPTNAME_SHORT" uid="2099ACCAF0FD0CE6F6E2F092E28F8005" hidden="0"/>
+            </td>
+            <td style="text-align: center; word-break: break-all;" rowspan="1" colspan="1" bgcolor="#f7f7f7" align="center"></td>
+            <td style="text-align: left; word-break: break-all;" rowspan="1" colspan="1" bgcolor="#f7f7f7" align="center"></td>
+        </tr>
+        <tr>
+            <td rowspan="1" colspan="1" style="word-break: break-all;" height="30" bgcolor="#f7f7f7" align="center"></td>
+            <td rowspan="1" colspan="1" style="text-align: left; word-break: break-all;" bgcolor="#f7f7f7" align="center"></td>
+            <td rowspan="1" colspan="1" style="word-break: break-all; text-align: center;" bgcolor="#f7f7f7" align="center"></td>
+            <td rowspan="1" colspan="1" style="text-align: left; word-break: break-all;" bgcolor="#f7f7f7" align="center"></td>
+        </tr>
+        <tr>
+            <td rowspan="1" colspan="1" style="word-break: break-all;" height="30" bgcolor="#f7f7f7" align="center"></td>
+            <td rowspan="1" colspan="1" style="text-align: left; word-break: break-all;" bgcolor="#f7f7f7" align="center"></td>
+            <td rowspan="1" colspan="1" style="word-break: break-all;" bgcolor="#f7f7f7" align="center"></td>
+            <td rowspan="1" colspan="1" style="text-align: left; word-break: break-all;" bgcolor="#f7f7f7" align="center"></td>
+        </tr>
+        <tr>
+            <td rowspan="1" colspan="1" style="word-break: break-all;" height="30" bgcolor="#f7f7f7" align="center"></td>
+            <td rowspan="1" colspan="1" style="text-align: left; word-break: break-all;" bgcolor="#f7f7f7" align="center"></td>
+            <td rowspan="1" colspan="1" style="word-break: break-all; text-align: center;" bgcolor="#f7f7f7" align="center"></td>
+            <td rowspan="1" colspan="1" style="text-align: left; word-break: break-all;" bgcolor="#f7f7f7" align="center"></td>
+        </tr>
+        <tr>
+            <td style="text-align: center; word-break: break-all;" rowspan="1" colspan="1" bgcolor="#f7f7f7" align="center">
+                <span style="font-family: 宋体, SimSun;">审批事项说明</span>
+            </td>
+            <td style="text-align: left; word-break: break-all;" rowspan="1" colspan="3" bgcolor="#f7f7f7" align="center">
+                <textarea name="DATA_104" title="审批事项说明" style="width: 538px; height: 60px; margin: 0px;" uid="CAFE30E3C23B11BE001564F51E5073FB" rich="0"></textarea>
+            </td>
+        </tr>
+        <tr>
+            <td rowspan="1" colspan="1" bgcolor="#f7f7f7" align="center" style="word-break: break-all;" height="37">
+                <span style="text-align: center; font-family: 宋体, SimSun; background-color: rgb(247, 247, 247);">相关资料</span>
+            </td>
+            <td rowspan="1" colspan="3" bgcolor="#f7f7f7" align="center" style="text-align: left; word-break: break-all;" height="37">
+                <span style="font-family: 宋体, SimSun; background-color: rgb(247, 247, 247);">请查看下方公共附件区相关上传文件</span>
+            </td>
+        </tr>
+        <tr>
+            <td rowspan="1" colspan="1" bgcolor="#f7f7f7" align="center" style="word-break: break-all;">
+                <span style="font-family: 宋体, SimSun;">部门审核</span>
+            </td>
+            <td rowspan="1" colspan="3" bgcolor="#f7f7f7" align="center" style="text-align: left; word-break: break-all;">
+                <p>
+                    <textarea title="部门审核" rich="0" style="margin-left: 0px; margin-right: 0px; width: 540px;" uid="5EDE007EDBF5C3B7C8D2372DB74FA9D7" name="DATA_105"></textarea>
+                </p>
+                <p style="text-align: right;">
+                    <input title="部门审核签名" class="AUTO" datafld="SYS_USERNAME_DATE" hidden="0" style="" uid="602A8812FF954D98F6E04B04CFFBDEF1" name="DATA_106" value="{MACRO}" type="text"/>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td rowspan="1" colspan="1" bgcolor="#f7f7f7" align="center" style="word-break: break-all;">
+                <span style="font-family: 宋体, SimSun;">分管领导意见</span>
+            </td>
+            <td rowspan="1" colspan="3" bgcolor="#f7f7f7" align="center" style="text-align: left; word-break: break-all;">
+                <p>
+                    <textarea title="分管领导意见" rich="0" style="margin: 0px; width: 540px; height: 40px;" uid="89736FA45DED12DCA175E3910E486E78" name="DATA_107"></textarea>
+                </p>
+                <p style="text-align: right;">
+                    <input title="分管领导签名" class="AUTO" datafld="SYS_USERNAME_DATE" hidden="0" style="" uid="FFFCACE1C3775A6301D07328980F0148" name="DATA_108" value="{MACRO}" type="text"/>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align: center; border-bottom: 2px solid rgb(33, 82, 131); word-break: break-all;" height="38" bgcolor="#f7f7f7" align="center"></td>
+            <td style="text-align: left; border-bottom: 2px solid rgb(33, 82, 131); word-break: break-all;" colspan="3" valign="middle" height="38" bgcolor="#f7f7f7" align="left"></td>
+        </tr>
+        <tr>
+            <td style="border-top: 1px solid rgb(33, 82, 131); word-break: break-all;" colspan="4" height="30" align="left">
+                <p>
+                    <span style="color: rgb(33, 82, 131); font-size: 9pt; font-weight: 700; font-family: 宋体, SimSun;">注：</span>
+                </p>
+                <p>
+                    <span style="color: rgb(33, 82, 131); font-size: 9pt; font-weight: 700; font-family: 宋体, SimSun;">1、务必按规范填报好相关内容</span>
+                </p>
+                <p>
+                    <span style="color: rgb(33, 82, 131); font-size: 9pt; font-weight: 700; font-family: 宋体, SimSun;">2、</span>
+                </p>
+                <p>
+                    <span style="color: rgb(33, 82, 131); font-size: 9pt; font-weight: 700; font-family: 宋体, SimSun;">3、</span>
+                </p>
+                <p>
+                    <span style="color: rgb(33, 82, 131); font-size: 9pt; font-weight: 700; font-family: 宋体, SimSun;">表单版本：<input datasrc="SELECT MARK FROM bpm_form_version WHERE ID = (SELECT version_id FROM bpm_run WHERE run_id=`[SYS_RUN_ID]`)" title="表单版本" class="AUTO" datafld="SYS_SQL" hidden="0" style="" uid="AE32EC83741464F93CD5FE39CCF3B410" name="DATA_109" value="{MACRO}" type="text"/></span>
+                </p><span style="font-family: 微软雅黑;"></span>
+            </td>
+        </tr>
+    </tbody>
+</table>

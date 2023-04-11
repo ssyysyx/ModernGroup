@@ -1,0 +1,104 @@
+﻿jQuery(function(){  
+   
+  jQuery("td[id^='LV_7_'][id$='_c1'] input").live('focus',function(event){
+	   this.style.imeMode='disabled'; 
+       jQuery(this).trigger('blur');
+       jQuery(this).attr(readOnly,true); 
+	});	
+  jQuery("td[id^='LV_7_'][id$='_c2'] input").live('focus',function(event){
+	   this.style.imeMode='disabled'; 
+       jQuery(this).trigger('blur');
+       jQuery(this).attr(readOnly,true); 
+	});
+  jQuery("td[id^='LV_7_'][id$='_c3'] input").live('focus',function(event){
+	   this.style.imeMode='disabled'; 
+       jQuery(this).trigger('blur');
+       jQuery(this).attr(readOnly,true); 
+	});
+  jQuery("td[id^='LV_7_'][id$='_c4'] input").live('focus',function(event){
+	   this.style.imeMode='disabled'; 
+       jQuery(this).trigger('blur');
+       jQuery(this).attr(readOnly,true); 
+	});
+  jQuery("td[id^='LV_7_'][id$='_c5'] input").live('focus',function(event){
+	   this.style.imeMode='disabled'; 
+       jQuery(this).trigger('blur');
+       jQuery(this).attr(readOnly,true); 
+	});
+  jQuery("td[id^='LV_7_'][id$='_c6'] input").live('focus',function(event){
+	   this.style.imeMode='disabled'; 
+       jQuery(this).trigger('blur');
+       jQuery(this).attr(readOnly,true); 
+	});
+
+
+
+});	
+
+
+//判断是否为整数
+jQuery("td[id^='LV_7_'][id$='_c5'] input").live('blur',function(event){
+		var reg = /^\d+$/;
+	if(!reg.test(jQuery(this).val())){
+      	alert("数量应为整数！请重新输入！");
+        jQuery(this).val("");
+      }
+	});
+
+
+//缺少引号
+jQuery(function(){ 	
+	jQuery(td[id^='LV_35_'][id$='_c1'] input).live('focus',function(event){
+       this.style.imeMode='disabled'; 
+       jQuery(this).trigger('blur');
+       jQuery(this).attr(readOnly,true); 
+    });	  	
+    jQuery(td[id^='LV_35_'][id$='_c2'] input).live('focus',function(event){
+       this.style.imeMode='disabled'; 
+       jQuery(this).trigger('blur');
+       jQuery(this).attr(readOnly,true); 
+    });
+    jQuery(td[id^='LV_35_'][id$='_c3'] input).live('focus',function(event){
+		this.style.imeMode='disabled';	
+        jQuery(this).trigger('blur');
+        jQuery(this).attr(readOnly,true); 
+	});
+    jQuery(td[id^='LV_35_'][id$='_c4'] input).live('focus',function(event){
+		this.style.imeMode='disabled';
+        jQuery(this).trigger('blur');
+        jQuery(this).attr(readOnly,true); 
+	});
+  	jQuery(td[id^='LV_35_'][id$='_c5'] input).live('focus',function(event){
+		this.style.imeMode='disabled';	
+        jQuery(this).trigger('blur');
+        jQuery(this).attr(readOnly,true); 
+	});
+  	jQuery(td[id^='LV_35_'][id$='_c7'] input).live('focus',function(event){
+		this.style.imeMode='disabled';	
+        jQuery(this).trigger('blur');
+        jQuery(this).attr(readOnly,true); 
+	});
+  单价控制只能输入数字
+	jQuery(td[id^='LV_35_'][id$='_c8'] input).live('blur',function(event){
+		var dj=jQuery(this).val();
+      	var tid=jQuery(this).parent().attr('id');
+      	var tdary=tid.split('_');
+      	var c7=tdary[0]+'_'+tdary[1]+'_'+tdary[2]+'_c7';
+      	var c4=tdary[0]+'_'+tdary[1]+'_'+tdary[2]+'_c4';
+      	var ckjg=jQuery(td[id='+c7+'] inputeq(0)).val();获取当前行的参考价格
+      	var lb=jQuery(td[id='+c4+'] inputeq(0)).val();获取当前行的类别
+      if (isNaN(dj)){
+      	alert(单价应为数字！请重新输入！);
+        jQuery(this).val();
+      }
+      else{
+        if(lb==严控){
+          if(parseFloat(dj)parseFloat(ckjg)){
+            alert(严控物品，单价不能超过参考价格！);
+            jQuery(this).val();
+          }
+        }
+      }
+	});
+});
+

@@ -1,0 +1,81 @@
+<p style="margin: 0px auto; width: 660px; text-align: left;">
+    <br/>
+</p>
+<table style="width: 660px;" data-sort="sortDisabled" cellspacing="0" cellpadding="0" bordercolor="#215283" border="2" align="center">
+    <colgroup class="ck-tableresize-colgroup">
+        <col style="width: 108px;"/>
+        <col style="width: 214px;"/>
+        <col style="width: 108px;"/>
+        <col style="width: auto;"/>
+    </colgroup>
+    <tbody>
+        <tr class="firstRow">
+            <td style="text-align: left; border-bottom: medium none currentcolor; word-break: break-all;" colspan="4" height="50" align="center">
+                <p style="margin: 15px 0px 0px; padding: 0px; text-align: center; color: rgb(33, 82, 131); line-height: 40px; font-size: 25pt;">
+                    <span style="font-family: 微软雅黑; font-size: 24px;">新建地址申请表</span><span style="font-family: 微软雅黑;"></span>
+                </p>
+                <p style="margin: 0px; padding: 0px 40px 0px 0px; text-align: right; color: rgb(102, 102, 102); line-height: 20px;">
+                    <span style="font-family: 微软雅黑;">&nbsp; &nbsp; &nbsp; &nbsp; 流水号：#[MACRO_RUN_ID]</span><span style="font-family: 微软雅黑;"></span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align: left; border-top: medium none currentcolor; border-bottom: medium none currentcolor; word-break: break-all;" colspan="4" valign="bottom" height="18" align="left">
+                <p style="color: rgb(102, 102, 102); vertical-align: bottom;">
+                    <br/>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align: center; border-top: 2px solid rgb(33, 82, 131); word-break: break-all;" height="30" bgcolor="#f7f7f7" align="center">
+                新增地址
+            </td>
+            <td style="text-align: left; border-top: 2px solid rgb(33, 82, 131); word-break: break-all;" valign="middle" height="30" bgcolor="#f7f7f7" align="left" rowspan="1" colspan="3">
+                <input validation="type:text;" uid="C2C4F5F94F64966822523B6CA8BF1CDF" type="text" name="DATA_27" align="left" hidden="0" title="新增地址" style="text-align:left;width:450px;" value=""/>
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align: center; word-break: break-all;" rowspan="1" colspan="1" height="30" bgcolor="#f7f7f7" align="center">
+                填报人
+            </td>
+            <td style="text-align: left; word-break: break-all;" rowspan="1" colspan="3" bgcolor="#f7f7f7" align="center">
+                <input title="填报人" class="AUTO" datafld="SYS_USERNAME" hidden="0" style="" uid="542418FB3DB0779AADD8BF7A189C46B6" name="DATA_49" value="{MACRO}" type="text"/>
+            </td>
+        </tr>
+        <tr>
+            <td rowspan="1" colspan="1" style="word-break: break-all; text-align: center;" height="30" bgcolor="#f7f7f7" align="center">
+                所属部门
+            </td>
+            <td rowspan="1" colspan="3" style="text-align: left; word-break: break-all;" bgcolor="#f7f7f7" align="center">
+                <input title="所属部门" class="AUTO" datafld="SYS_DEPTNAME_SHORT" hidden="0" style="" uid="1AE428B62FB3368058BAF430606B0E6E" name="DATA_48" value="{MACRO}" type="text"/>
+            </td>
+        </tr>
+        <tr>
+            <td rowspan="1" colspan="1" style="word-break: break-all; text-align: center;" height="30" bgcolor="#f7f7f7" align="center">
+                填报日期
+            </td>
+            <td rowspan="1" colspan="3" style="text-align: left; word-break: break-all;" bgcolor="#f7f7f7" align="center">
+                <input title="填报日期" class="AUTO" datafld="SYS_DATE" hidden="0" style="" uid="73C0E7C4D867A6CEFD93AAC01F8C0B1D" name="DATA_47" value="{MACRO}" type="text"/>
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align: center; border-bottom: 2px solid rgb(33, 82, 131); word-break: break-all; background-color: rgb(247, 247, 247);" height="30" bgcolor="#f7f7f7" align="center">
+                <span style="background-color: rgb(247, 247, 247);">领导意见</span>
+            </td>
+            <td style="text-align: left; border-bottom: 2px solid rgb(33, 82, 131); word-break: break-all; background-color: rgb(247, 247, 247);" colspan="3" valign="middle" height="30" bgcolor="#f7f7f7" align="left" rowspan="1">
+                <p>
+                    <textarea uid="4232BE9BF09113D7E7AEF46A5FD36A08" title="分领导意见" rich="0" style="width: 520px;height: 50px;" name="DATA_22"></textarea>
+                </p>
+                <p style="text-align: right;">
+                    <input uid="8501A321CECE07DB11D873564D83B875" title="领导签章" class="AUTO" datafld="SYS_USERNAME_DATE" hidden="0" style="" name="DATA_23" value="{MACRO}" type="text"/>
+                </p>
+            </td>
+        </tr>
+    </tbody>
+</table>
+<p>
+    <br/>
+</p>
+<div id="baidu_pastebin" style="position: absolute; width: 1px; height: 1px; overflow: hidden; left: -1000px; white-space: nowrap; top: 157px;">
+    <img class="loadingclass" id="loading_kcx1csb6" src="/module/ueditor/themes/default/images/spacer.gif" title="正在上传..."/>
+</div>

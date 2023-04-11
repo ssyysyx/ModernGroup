@@ -1,0 +1,75 @@
+jQuery(function(){
+	jQuery("[name='DATA_170'][value='有']").live('click',function(event){
+     if(this.checked == true){
+      	jQuery(".E").show();
+     }
+    });
+     	
+      jQuery("[name='DATA_170'][value='无']").live('click',function(event){
+     if(this.checked == true){
+      	 jQuery(".E").hide();
+     }     
+	});
+  
+  	jQuery("[name='DATA_173'][value='有']").live('click',function(event){
+     if(this.checked == true){
+      	jQuery(".G").show();
+     }
+    });
+     	
+      jQuery("[name='DATA_173'][value='无']").live('click',function(event){
+     if(this.checked == true){
+      	 jQuery(".G").hide();
+     }     
+	});
+  
+  jQuery("[name='DATA_200'][value='其他']").live('click',function(event){
+     if(this.checked == true){
+      	jQuery(".A").show();
+     }else{
+     	jQuery(".A").hide();
+     }
+           
+	});
+  jQuery("[name='DATA_216'][value='其他']").live('click',function(event){
+     if(this.checked == true){
+      	jQuery(".B").show();
+     }else{
+     	jQuery(".B").hide();
+     }
+           
+	});
+  jQuery("[name='DATA_198'][value='有']").live('click',function(event){
+     if(this.checked == true){
+      	jQuery(".C").show();
+     }
+    });
+     	
+      jQuery("[name='DATA_198'][value='无']").live('click',function(event){
+     if(this.checked == true){
+      	 jQuery(".C").hide();
+     }     
+	});
+  jQuery("[name='DATA_207'][value='有']").live('click',function(event){
+     if(this.checked == true){
+      	jQuery(".D").show();
+     }
+    });
+     	
+      jQuery("[name='DATA_207'][value='无']").live('click',function(event){
+     if(this.checked == true){
+      	 jQuery(".D").hide();
+     }     
+	});
+  jQuery("[name='DATA_214'][value='有']").live('click',function(event){
+     if(this.checked == true){
+      	jQuery(".F").show();
+     }
+    });
+     	
+      jQuery("[name='DATA_214'][value='无']").live('click',function(event){
+     if(this.checked == true){
+      	 jQuery(".F").hide();
+     }     
+	});
+});
